@@ -1,9 +1,17 @@
 /* Reset da configuração de fábrica */
+main{
+    max-width: 100%;
+    background-color: #B3B3B3;
+    color: white;
+}
+
 html{
+    max-width: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
     font-size: 32px;
+    color: rgb(255, 255, 255);
 }
 
 body{
@@ -13,20 +21,95 @@ body{
 }
 
 /*Seletor por id */
-#secao1 {
+#secao11 {
     background-color:#B3B3B3;
     font-weight: 800;
     color: white;
+    justify-content: center;
 }
 
 /* Seletor por classe*/
-.secao2{
+.sec0{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.5em;
-    background-color: aqua;
-    color: black;
+    background-color: #B3B3B3;
+    color: rgb(38, 38, 240);
+}
+.sec1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    background-color: #B3B3B3;
+    color: white;
 }
 
-.secao3{
+.sec2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    background-color: #B3B3B3;
+    color: white;
+}
+
+.sec3{
     border: 3em black;
+
+}
+
+.sec4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    background-color: #B3B3B3;
+    color: white;
+}
+
+.sec5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    background-color: #B3B3B3;
+    color: white;
+}
+
+.sec6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    background-color: #B3B3B3;
+    color: white;
+}
+
+.sec7{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    background-color: #B3B3B3;
+    color: white;
+}
+
+.sec8{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    background-color: #B3B3B3;
+    color: white;
+}
+
+.sec9{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    background-color: #B3B3B3;
+    color: white;
+}
+
+.sec10{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    background-color: #B3B3B3;
+    color: white;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 1.5em;
+    color: rgb(38, 38, 240);
+    text-decoration: underline;
 }
