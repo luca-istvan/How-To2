@@ -1,0 +1,32 @@
+/* Reset da configuração de fábrica */
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+
+body{
+    background: #B3B3B3;
+    color: white;
+    font-weight: 800;
+}
+
+/*Seletor por id */
+#secao1 {
+    background-color:#B3B3B3;
+    font-weight: 800;
+    color: white;
+}
+
+/* Seletor por classe*/
+.secao2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    background-color: aqua;
+    color: black;
+}
+
+.secao3{
+    border: 3em black;
+}
